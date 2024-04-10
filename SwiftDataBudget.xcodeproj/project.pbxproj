@@ -11,6 +11,7 @@
 		F19B17482BC648C600F66216 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B17472BC648C600F66216 /* ContentView.swift */; };
 		F19B174A2BC648C900F66216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19B17492BC648C900F66216 /* Assets.xcassets */; };
 		F19B174D2BC648C900F66216 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19B174C2BC648C900F66216 /* Preview Assets.xcassets */; };
+		F19B17552BC6494600F66216 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B17542BC6494600F66216 /* Budget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F19B17472BC648C600F66216 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F19B17492BC648C900F66216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F19B174C2BC648C900F66216 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F19B17542BC6494600F66216 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F19B17452BC648C600F66216 /* SwiftDataBudgetApp.swift */,
 				F19B17472BC648C600F66216 /* ContentView.swift */,
+				F19B17532BC648D200F66216 /* Models */,
 				F19B17492BC648C900F66216 /* Assets.xcassets */,
 				F19B174B2BC648C900F66216 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				F19B174C2BC648C900F66216 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F19B17532BC648D200F66216 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F19B17542BC6494600F66216 /* Budget.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				F19B17482BC648C600F66216 /* ContentView.swift in Sources */,
 				F19B17462BC648C600F66216 /* SwiftDataBudgetApp.swift in Sources */,
+				F19B17552BC6494600F66216 /* Budget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
