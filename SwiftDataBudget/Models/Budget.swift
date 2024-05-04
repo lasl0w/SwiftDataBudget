@@ -23,5 +23,11 @@ class Budget {
         self.limit = limit
     }
     
+    // NOTE - IN SWIFTDATA, WE DON'T REALLY NEED A VIEWMODEL
+    // Logic can go right here in the model.  Example:
+//    var remaining: Double {
+//        limit - spent
+//    }
+    
 }
 
