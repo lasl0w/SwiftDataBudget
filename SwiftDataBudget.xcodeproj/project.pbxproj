@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F1340E322BE49CDF00028A31 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1340E312BE49CDF00028A31 /* PreviewContainer.swift */; };
+		F199F5DD2BEB2F4000A4C30A /* BudgetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199F5DC2BEB2F4000A4C30A /* BudgetDetail.swift */; };
 		F19B17462BC648C600F66216 /* SwiftDataBudgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B17452BC648C600F66216 /* SwiftDataBudgetApp.swift */; };
 		F19B17482BC648C600F66216 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B17472BC648C600F66216 /* ContentView.swift */; };
 		F19B174A2BC648C900F66216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19B17492BC648C900F66216 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		F1340E312BE49CDF00028A31 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
+		F199F5DC2BEB2F4000A4C30A /* BudgetDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetDetail.swift; sourceTree = "<group>"; };
 		F19B17422BC648C600F66216 /* SwiftDataBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19B17452BC648C600F66216 /* SwiftDataBudgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataBudgetApp.swift; sourceTree = "<group>"; };
 		F19B17472BC648C600F66216 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				F19B17452BC648C600F66216 /* SwiftDataBudgetApp.swift */,
 				F19B17472BC648C600F66216 /* ContentView.swift */,
+				F199F5DC2BEB2F4000A4C30A /* BudgetDetail.swift */,
 				F19B17532BC648D200F66216 /* Models */,
 				F19B17492BC648C900F66216 /* Assets.xcassets */,
 				F19B174B2BC648C900F66216 /* Preview Content */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F19B17482BC648C600F66216 /* ContentView.swift in Sources */,
+				F199F5DD2BEB2F4000A4C30A /* BudgetDetail.swift in Sources */,
 				F19B17462BC648C600F66216 /* SwiftDataBudgetApp.swift in Sources */,
 				F1340E322BE49CDF00028A31 /* PreviewContainer.swift in Sources */,
 				F19B17552BC6494600F66216 /* Budget.swift in Sources */,

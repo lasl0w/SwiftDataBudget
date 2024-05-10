@@ -23,6 +23,14 @@ struct ContentView: View {
     // limit starts out null
     @State private var limit: Double?
     
+    private func deleteBudget(_ indexSet: IndexSet) {
+        indexSet.forEach{ index in
+            let budgetToDelete = budgets[index]
+            // delete it from the DB - remove the PersistentModel
+            context.delete(budgetToDelete)
+        }
+    }
+    
     
     var body: some View {
         Form {
@@ -49,9 +57,18 @@ struct ContentView: View {
             }
             
             Section("Budget List") {
-                List(budgets) { budget in
-                    Text(budget.name)
+                // switch from a straight List to a ForEach embedded in a List so we can use the .onDelete mod
+                List {
+                    ForEach(budgets) { budget in
+                        NavigationLink {
+                            BudgetDetail(budget: budget)
+                        } label: {
+                            Text(budget.name)
+                        }
+                    }.onDelete(perform: deleteBudget(_:))
+                    // The presence of the .onDelete enables the swipe left to delete capability
                 }
+
             }
         }
         .navigationTitle("Budget")
