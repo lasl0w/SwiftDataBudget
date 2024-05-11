@@ -36,6 +36,7 @@ struct BudgetDetailContainer: View {
 }
 // Can't do an @Query in the preview (not allowed) so we use this container pattern
 #Preview { @MainActor in
+    // TODO: @MainActor forces it to the main thread. i guess it's safer?
     NavigationStack {
         BudgetDetailContainer()
             .modelContainer(previewContainer)
